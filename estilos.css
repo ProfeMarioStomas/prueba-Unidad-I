@@ -1,0 +1,63 @@
+div#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#menu-izquierda {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+div#menu-derecha {
+    display: flex;
+    gap: 8px;
+}
+
+a.link-redondeado {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none; /* por defecto, los <a> (links) tienen subrayado */
+    color: black; /* por defecto, los <a> (links) son azules */
+}
+
+div.contenido {
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    gap: 16px
+}
+
+div.con-imagen-fondo {
+    background-image: url("https://media.istockphoto.com/id/1414159406/es/vector/multicolor-abstracto-rojo-naranja-verde-p%C3%BArpura-amarillo-colorido-ondulado-papelcut.jpg?s=612x612&w=0&k=20&c=UNjQErYytEZGkh72OyyN0XvryBi_G7_NUmQGwmK34jg=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    align-content: end;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.div-redondeado {
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 25%;
+}
+
+div.div-redondeado > img {
+    width: 100%;
+    max-height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-content: end;
+}
+
+div.div-redondeado > .cuerpo {
+    padding: 10px;
+}
